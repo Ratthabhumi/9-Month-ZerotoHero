@@ -1,96 +1,91 @@
-# 🚀 9 Month Zero to Hero - Coding Journey
+# Road to Junior DevOps Engineer 🚀
 
-> **เริ่มต้นการเดินทาง 9 เดือน จาก Zero สู่ Hero** 💪
-
----
-
-## 👤 About This Journey
-
-นี่คือ Learning Journal ของผมในการศึกษา Programming เป็นเวลา 9 เดือน
-โดยใช้ AI เป็น Teacher, Code Reviewer และ Pair Programmer
-
-**กฎของตัวเอง:**
-- ❌ ห้าม Copy โค้ดทั้งหมดโดยไม่เข้าใจ
-- ✅ ต้องเข้าใจและอธิบายโค้ดได้
-- ✅ ใช้ AI เป็นเครื่องมือช่วยเรียนรู้ ไม่ใช่ทำแทน
+> **Starting my 9-month (36 weeks) journey to become a Junior DevOps Engineer.**
 
 ---
 
-## 📅 Learning Roadmap
+## 👤 About Me
 
-### 🟢 Month 1 - Foundation
-- [x] **Week 1 Day 1** - Git Setup & Fundamentals *(วันนี้!)*
-- [ ] Week 1 Day 2 - Git Branching & Merging
-- [ ] Week 1 Day 3 - GitHub Collaboration
-- [ ] Week 2 - HTML & CSS Basics
-- [ ] Week 3 - JavaScript Fundamentals
-- [ ] Week 4 - JavaScript Advanced
+- **Name:** Mew (Ratthabhumi Peansukmanee)
+- **Status:** Computer Engineering (International Program), Year 3 @ KMITL
+- **Current Role:** System Engineer Intern @ Kanematsu Electronics Thailand (KEL)
+- **Goal:** Junior DevOps Engineer (Primary), Platform/Cloud/SRE (Secondary)
+- **Interests:** Linux, Python, DevOps, Cloud, Docker, Kubernetes, Terraform, Automation, Infrastructure, Networking, AI Engineering
 
-### 🔵 Month 2-3 - Frontend
-- [ ] React Fundamentals
-- [ ] State Management
-- [ ] API Integration
+---
 
-### 🟣 Month 4-6 - Backend
-- [ ] Node.js & Express
-- [ ] Databases (SQL & NoSQL)
-- [ ] RESTful API Design
+## 🎯 Career Goal
 
-### 🟡 Month 7-9 - Full Stack & Projects
-- [ ] Full Stack Projects
-- [ ] Deployment & DevOps
-- [ ] Portfolio Building
+My primary goal is to become employable as a Junior DevOps Engineer before graduation. I want to build a strong foundation in Linux, networking, and cloud infrastructure, and learn how to automate and orchestrate deployments using modern tools like Docker, Kubernetes, and Terraform.
+
+---
+
+## 🗺️ 9-Month Roadmap (36 Weeks)
+
+### Phase 1: Foundation (Week 1–4)
+- [ ] Week 1 — Git, Linux, Terminal, Developer Environment
+- [ ] Week 2 — Linux Deep Dive + Shell Scripting
+- [ ] Week 3 — Networking Fundamentals
+- [ ] Week 4 — Python for DevOps
+
+### Phase 2: Containers & CI/CD (Week 5–12)
+- [ ] Week 5–6 — Docker
+- [ ] Week 7–8 — CI/CD with GitHub Actions
+- [ ] Week 9–10 — Docker Compose + Multi-container Apps
+- [ ] Week 11–12 — Project: Containerized App + CI Pipeline
+
+### Phase 3: Cloud & Infrastructure (Week 13–20)
+- [ ] Week 13–14 — AWS/GCP Fundamentals
+- [ ] Week 15–16 — Terraform (Infrastructure as Code)
+- [ ] Week 17–18 — Cloud Networking & Security
+- [ ] Week 19–20 — Project: Cloud Infrastructure
+
+### Phase 4: Orchestration & Monitoring (Week 21–28)
+- [ ] Week 21–24 — Kubernetes
+- [ ] Week 25–26 — Monitoring: Prometheus + Grafana
+- [ ] Week 27–28 — Logging: ELK Stack
+
+### Phase 5: Portfolio & Job Ready (Week 29–36)
+- [ ] Week 29–32 — Capstone Projects
+- [ ] Week 33–34 — Resume + LinkedIn + Portfolio
+- [ ] Week 35 — Mock Interviews
+- [ ] Week 36 — Apply for Jobs 🎯
+
+---
+
+## 🛠️ Technologies I'm Learning
+
+| Category | Tools |
+|----------|-------|
+| Version Control | Git, GitHub |
+| OS/Shell | Linux, Bash |
+| Containers | Docker, Docker Compose |
+| Orchestration | Kubernetes |
+| CI/CD | GitHub Actions |
+| IaC | Terraform |
+| Cloud | AWS / GCP |
+| Monitoring | Prometheus, Grafana |
+| Scripting | Python, Bash |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-9_Month_ZerotoHero/
-├── README.md           ← You are here!
-├── Week01/
-│   ├── Day01-Git/      ← Git fundamentals
-│   ├── Day02-Git/      ← Git branching
-│   └── Day03-Git/      ← GitHub collaboration
-├── Week02/
-│   └── ...
-└── Projects/
-    └── ...
+road-to-junior-devops/
+├── README.md
+├── LICENSE
+├── .gitignore
+└── notes/
+    └── week1-day1.md
 ```
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📊 Progress
 
-| Tool | Purpose | Status |
-|------|---------|--------|
-| Git | Version Control | ✅ Installed |
-| GitHub | Remote Repository | ✅ Active |
-| VS Code | Code Editor | ✅ Ready |
+**Week 1 / 36** | Started: July 10, 2026
 
 ---
 
-## 📊 Progress Tracker
-
-**Day 1/270** | 0.37% Complete
-
-```
-Progress: [▓░░░░░░░░░░░░░░░░░░░] 0.37%
-```
-
----
-
-## 📝 Daily Logs
-
-### 2026-07-09 - Day 1 🌱
-- ✅ ติดตั้ง Git
-- ✅ สร้าง GitHub Profile  
-- ✅ เรียนรู้คำสั่ง Git พื้นฐาน
-- ✅ สร้าง Repository แรก
-- ✅ Commit ครั้งแรก!
-
----
-
-*"Every expert was once a beginner. The journey of a thousand miles begins with a single step."* 🌟
-
-**Started:** July 9, 2026 | **Target:** April 2027
+*Mentored by AI as Senior DevOps Engineer | Consistency over perfection.*
