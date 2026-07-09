@@ -73,11 +73,14 @@ My primary goal is to become employable as a Junior DevOps Engineer before gradu
 
 ```
 road-to-junior-devops/
-├── README.md
-├── LICENSE
-├── .gitignore
-└── notes/
-    └── week1-day1.md
+├── README.md                <- (Main Roadmap)
+├── LICENSE                  <- (MIT License)
+├── .gitignore               <- (Git ignore rules)
+├── Cheatsheets/
+│   └── 01_Git_Cheatsheet.md <- (Cheat sheets for reference)
+└── Week01_Day01_Git_Basics/ <- (Today's hands-on folder)
+    ├── 01_hello.txt
+    └── 02_my-profile.md
 ```
 
 ---
