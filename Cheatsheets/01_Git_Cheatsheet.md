@@ -55,9 +55,14 @@ refactor: ปรับปรุงโค้ด
 1. แก้ไขไฟล์
 2. git status    (ดูว่าเปลี่ยนอะไรบ้าง)
 3. git add .     (เพิ่มไฟล์)
-4. git commit    (บันทึก)
+4. git commit -m "ข้อความ" (บันทึก)
 5. git push      (อัพ GitHub)
 ```
+
+**💡 เกร็ดความรู้: `git commit` vs `git commit -m`**
+- `git commit`: จะเปิดหน้าต่าง Text Editor (เช่น Vim หรือ VS Code) ขึ้นมา เพื่อให้เราพิมพ์อธิบายแบบยาวๆ หลายบรรทัด
+- `git commit -m "ข้อความ"`: ใช้ตัวเลือก `-m` (ย่อมาจาก message) เพื่อพิมพ์ข้อความสั้นๆ บรรทัดเดียวจบใน Terminal ได้เลยรวดเร็ว 
+*(หมายเหตุ: ถ้าพิมพ์ `git commit "ข้อความ"` โดยไม่มี `-m` Git จะนึกว่าข้อความนั้นคือชื่อไฟล์ จนเกิด Error `pathspec did not match any file(s) known to git`)*
 
 ## 🌿 Branching & Merging (การแยกและรวมกิ่ง)
 ```bash
