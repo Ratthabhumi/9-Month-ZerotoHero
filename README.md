@@ -20,36 +20,55 @@ My primary goal is to become employable as a Junior DevOps Engineer before gradu
 
 ---
 
-## 🗺️ 9-Month Roadmap (36 Weeks)
+## 🗺️ 36-Week Roadmap (Updated: Focused on Core Junior DevOps Skills)
 
-### Phase 1: Foundation (Week 1–4)
-- [ ] Week 1 — Git, Linux, Terminal, Developer Environment
-- [ ] Week 2 — Linux Deep Dive + Shell Scripting
-- [ ] Week 3 — Networking Fundamentals
-- [ ] Week 4 — Python for DevOps
+*Note: This roadmap has been refined to focus heavily on practical Junior DevOps requirements, explicitly removing overly complex enterprise tools (like GitOps/ArgoCD) and reallocating time into strategic catch-up buffers and earlier job hunting.*
 
-### Phase 2: Containers & CI/CD (Week 5–12)
-- [ ] Week 5–6 — Docker
-- [ ] Week 7–8 — CI/CD with GitHub Actions
-- [ ] Week 9–10 — Docker Compose + Multi-container Apps
-- [ ] Week 11–12 — Project: Containerized App + CI Pipeline
+### ✅ Foundation (Completed: Week 1–2)
+- [x] **Week 1:** Git, Linux, Terminal, Developer Environment
+- [x] **Week 2:** Advanced Python, Linux CLI Deep Dive, Password Manager Project (CLI & Cryptography)
 
-### Phase 3: Cloud & Infrastructure (Week 13–20)
-- [ ] Week 13–14 — AWS/GCP Fundamentals
-- [ ] Week 15–16 — Terraform (Infrastructure as Code)
-- [ ] Week 17–18 — Cloud Networking & Security
-- [ ] Week 19–20 — Project: Cloud Infrastructure
+### Phase 1: Linux & Networking Depth (Week 3–7)
+- [ ] **Week 3:** Networking for Cloud (DNS, HTTP Status, Port Mapping, Reverse Proxy with Nginx, curl/dig/ss)
+- [ ] **Week 4:** Bash Scripting & Automation (Backup scripts, Log management, Automated health checks)
+- [ ] **Week 5:** Process Management (Systemd, Permissions, SSH Keys, Resource Monitoring)
+- [ ] **Week 6:** Linux Troubleshooting Simulation (Storage full, 100% CPU, Zombie processes)
+- [ ] **Week 7:** 🟡 *Buffer / Catch-up #1*
 
-### Phase 4: Orchestration & Monitoring (Week 21–28)
-- [ ] Week 21–24 — Kubernetes
-- [ ] Week 25–26 — Monitoring: Prometheus + Grafana
-- [ ] Week 27–28 — Logging: ELK Stack
+### Phase 2: Containers (Week 8–10)
+- [ ] **Week 8–9:** Docker Deep Dive (Multi-stage Dockerfiles, Layers, Networking, Volumes)
+- [ ] **Week 10:** Docker Compose (App + DB + Cache integration)
 
-### Phase 5: Portfolio & Job Ready (Week 29–36)
-- [ ] Week 29–32 — Capstone Projects
-- [ ] Week 33–34 — Resume + LinkedIn + Portfolio
-- [ ] Week 35 — Mock Interviews
-- [ ] Week 36 — Apply for Jobs 🎯
+### Phase 3: AWS Core (Week 11–14)
+- [ ] **Week 11–12:** AWS Core Services (EC2, VPC, S3, IAM, RDS) — *Start studying for AWS Cloud Practitioner/SAA*
+- [ ] **Week 13:** AWS Security & Networking (Security Groups, Public/Private Subnets, NAT Gateway)
+- [ ] **Week 14:** **Milestone Project:** Cloud Migration (Migrate Password Manager to AWS) + **Take AWS Certification Exam**
+
+### Phase 4: CI/CD & IaC (Week 15–22)
+- [ ] **Week 15–16:** GitHub Actions (Automated pipelines for test/build/push images)
+- [ ] **Week 17:** **Milestone Project:** Cloud Cost Optimization Bot (Portfolio differentiator)
+- [ ] **Week 18:** 🟡 *Buffer / Catch-up #2*
+- [ ] **Week 19–20:** Terraform Basics, State Management, Modules
+- [ ] **Week 21:** Terraform + AWS (Provision VPC/EC2/RDS via IaC)
+- [ ] **Week 22:** Secrets & Configuration Management on Cloud
+
+### Phase 5: Kubernetes (Junior-level Depth) (Week 23–27)
+- [ ] **Week 23–24:** K8s Foundations (Pods, Deployments, Services, ConfigMaps, Secrets)
+- [ ] **Week 25:** K8s Networking & Storage (Ingress, PVC/PV)
+- [ ] **Week 26:** **Milestone Project:** Deploy Application to K8s Cluster
+- [ ] **Week 27:** 🟡 *Buffer / Catch-up #3*
+
+### Phase 6: Monitoring Basics & Portfolio (Week 28–30)
+- [ ] **Week 28:** Prometheus & Grafana Basics
+- [ ] **Week 29:** Portfolio Finalization — Polish 3 Main Projects (Password Manager on AWS, Cost Bot, K8s Deployment) with READMEs & Architecture Diagrams
+- [ ] **Week 30:** Resume & LinkedIn Tuning → **START APPLYING FOR JOBS**
+
+### Phase 7: Interview & Job Hunt (Week 31–36)
+- [ ] **Week 31–32:** Mock Technical Interviews (Linux/AWS/Docker/Terraform/K8s Q&A)
+- [ ] **Week 33:** Behavioral Interviews (STAR Method)
+- [ ] **Week 34:** 🟡 *Buffer* — Address weaknesses discovered during real interviews
+- [ ] **Week 35:** Offer Negotiation Basics
+- [ ] **Week 36:** 🟡 *Final Buffer / Continuous Interviews*
 
 ---
 
@@ -63,7 +82,7 @@ My primary goal is to become employable as a Junior DevOps Engineer before gradu
 | Orchestration | Kubernetes |
 | CI/CD | GitHub Actions |
 | IaC | Terraform |
-| Cloud | AWS / GCP |
+| Cloud | AWS |
 | Monitoring | Prometheus, Grafana |
 | Scripting | Python, Bash |
 
@@ -76,18 +95,17 @@ road-to-junior-devops/
 ├── README.md                <- (Main Roadmap)
 ├── LICENSE                  <- (MIT License)
 ├── .gitignore               <- (Git ignore rules)
-├── Cheatsheets/
-│   └── 01_Git_Cheatsheet.md <- (Cheat sheets for reference)
-└── Week01_Day01_Git_Basics/ <- (Today's hands-on folder)
-    ├── 01_hello.txt
-    └── 02_my-profile.md
+├── Cheatsheets/             <- (Cheat sheets for reference)
+├── notes/                   <- (Daily learning notes & reflections)
+├── Week01_...               <- (Week 1 Projects & Code)
+└── Week02_...               <- (Week 2 Projects & Code)
 ```
 
 ---
 
 ## 📊 Progress
 
-**Week 1 / 36** | Started: July 10, 2026
+**Week 3 / 36** | Current Phase: Linux & Networking Depth
 
 ---
 
