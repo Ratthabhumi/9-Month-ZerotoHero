@@ -41,17 +41,20 @@ def delete_password(site):
 
 def list_sites():
     sites = []
-    with open(DATABASE_FILE, "r") as f:
-        for line in f:
-            parts = line.strip().split("|")
-            if len(parts) == 2:
-                sites.append(parts[0])
-    if sites:
-        print("รายชื่อเว็บไซต์ทั้งหมด:")
-        for site in sites:
-            print(f"- {site}")
-    else:
-        print("ยังไม่มีข้อมูลรหัสผ่านในระบบ")    
+    try:
+        with open(DATABASE_FILE, "r") as f:
+            for line in f:
+                parts = line.strip().split("|")
+                if len(parts) == 2:
+                    sites.append(parts[0])
+        if sites:
+            print("รายชื่อเว็บไซต์ทั้งหมด:")
+            for site in sites:
+                print(f"- {site}")
+        else:
+            print("ยังไม่มีข้อมูลรหัสผ่านในระบบ")
+    except FileNotFoundError:
+        print("❌ ไม่พบฐานข้อมูลรหัสผ่าน")  
 
 def main():
     # ตรวจสอบก่อนว่าเรามีกุญแจเข้ารหัสหรือยัง ถ้ายังให้สร้างขึ้นมา
